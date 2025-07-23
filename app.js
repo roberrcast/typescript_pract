@@ -1,7 +1,9 @@
-var year = "1989";
-var month = "09";
-var day = "26";
-var birthDate = new Date("".concat(year, "-").concat(month, "-").concat(day));
+var input = {
+    year: "1989",
+    month: "09",
+    day: "26",
+};
+var birthDate = new Date("".concat(input.year, "-").concat(input.month, "-").concat(input.day));
 var today = new Date();
 var calculateAge = function (birthDate, today) {
     var age = today.getFullYear() - birthDate.getFullYear();
