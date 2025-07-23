@@ -1,10 +1,16 @@
-const year: string = "1989";
+interface BirthDateParts {
+    year: string;
+    month: string;
+    day: string;
+}
 
-const month: string = "09";
+const input: BirthDateParts = {
+    year: "1989",
+    month: "09",
+    day: "26",
+};
 
-const day: string = "26";
-
-const birthDate: Date = new Date(`${year}-${month}-${day}`);
+const birthDate: Date = new Date(`${input.year}-${input.month}-${input.day}`);
 
 const today: Date = new Date();
 
