@@ -1,0 +1,15 @@
+{
+    "name": "typescript-tarea",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Roberto, mail@mail.com",
+    "license": "ISC",
+    "description": "Practica de typescript",
+    "devDependencies": {
+        "typescript": "^5.8.3"
+    }
+}
